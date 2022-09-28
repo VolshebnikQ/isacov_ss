@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="resources\css\base.css"/>
+    <link rel="stylesheet", href="resources\css\aside.css"/>
+    <link rel="stylesheet", href="resources\css\content.css"/>
+    <script src="resources\js\script.js"></script>
+    <title>Семинар 29.09</title>
+</head>
+<body >
+    <aside>
+        <h3>Юматов А.Д.</h3>
+        <h3>19ИТ-МО</h3>
+        <br>
+        <button onclick="clear_0(this)" type="button" class="btn btn-danger">Очистить лист</button>
+        <button onclick="canva_1(this)" type="button" class="btn btn-info">Треугольник</button>
+        <button onclick="canva_2(this)" type="button" class="btn btn-info">Равносторонний треугольник</button>
+        <button onclick="canva_3(this)" type="button" class="btn btn-info">Квадрат</button>
+        <button onclick="canva_4(this)" type="button" class="btn btn-info">Многоугольник</button>
+        <button onclick="canva_5(this)" type="button" class="btn btn-info">Несколько фигур</button>
+        <div class="input-group">
+            <input type="text" class="form-control" aria-describedby="button_star" id="input_star" value="5">
+            <button onclick="canva_6(this)" class="btn btn-info" type="button" id="button_star">Звезда</button>
+        </div>
+    </aside>
+    <div class="canvas_for_drawing">
+        <canvas class="canvas" id="canvas" width=3840 height=2160>
+        </canvas>
+    </div>
+</body>
+</html>

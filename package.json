@@ -1,0 +1,15 @@
+{
+  "name": "28.09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss_build": "sass resources/scss:resources/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "sass": "^1.55.0"
+  }
+}
